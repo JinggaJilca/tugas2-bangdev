@@ -1,4 +1,7 @@
 import { useNavigate } from "react-router-dom"
+
+import './styles2.css';
+
 const nav =() => {
     const navigate = useNavigate()
     return(
@@ -6,9 +9,10 @@ const nav =() => {
             <div class="mx-auto p-5 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <a href="https://flowbite.com/" class="flex items-center">
-                        <span class="font-bold text-3xl dark:text-white">Finesse Fashion</span>
-                    </a>
+                <a href="https://flowbite.com/" class="footer-brand flex items-center">
+                    <span>interesting choice of our choice</span>
+                </a>
+                
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
@@ -84,6 +88,8 @@ const nav =() => {
                 </div>
             </div>
             </div>
+           
+
         </footer>
 
 
