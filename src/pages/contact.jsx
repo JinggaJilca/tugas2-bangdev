@@ -1,7 +1,7 @@
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import { useNavigate } from "react-router-dom"
-const about =()=> {
+const contact =()=> {
     const navigate = useNavigate()
     return (
         <>
@@ -14,4 +14,4 @@ const about =()=> {
         </>
     )
 }
-export default about
+export default contact

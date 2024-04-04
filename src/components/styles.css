@@ -1,0 +1,43 @@
+.nav-link {
+    color: #6c5b7b; /* Warna indah */
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; 
+    position: relative;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #6c5b7b; 
+    transition: width 0.3s ease-in-out; 
+}
+
+.nav-link:hover::before {
+    width: 100%; 
+}
+
+.bg-white {
+    background-color: #9bb88b; 
+}
+
+.text-green-800 {
+    color: #34d399; 
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.backdrop-filter {
+    backdrop-filter: blur(10px); 
+}
+
+.nav-link:hover {
+    color: #4b5563; 
+}
